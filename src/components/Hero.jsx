@@ -12,17 +12,17 @@ const Hero = () => {
           <div className="w-5 h-5 rounded-full bg-[#00d4ff]" />
           <div className="w-1 sm:h-80 h-40 blue-gradient" />
         </div>
-        <img 
-        src="/me.png"
-        alt="Profile"
-        className="absolute top-full left-3/4 transform -translate-x-1/2 -translate-y-full z-auto"
-        />
-        <div>
+        <div className='z-10'>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm  <span className="text-[#00d4ff]">Yousaf</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             An aspiring AI/ML engineer by day and indie game dev by night.
           </p>
         </div>
+        <img 
+          src="/me.png"
+          alt="Profile"
+          className="absolute top-full left-3/4 transform -translate-x-1/2 -translate-y-full z-0"
+        />
         
       </div>
       {/* <ComputersCanvas /> */}
