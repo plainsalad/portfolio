@@ -217,7 +217,7 @@ import {
       title: "Teaching Assisstant Computer Science and Mathematics A-Levels",
       company_name: "Roots Millennium Schools",
       icon: roots,
-      iconBg: "#383E56",
+      iconBg: "#E6DEDD",
       date: "September 2018 - May 2020",
       points: [
         "Stepped up to teach a class of 15 students during the teacher’s 1-month absence, ensuring continuity and quality of education.",
@@ -257,7 +257,7 @@ import {
       title: "Data Science Intern",
       company_name: "Krafton",
       icon: krafton,
-      iconBg: "#383E56",
+      iconBg: "#E6DEDD",
       date: "Sep 2021 - Dec 2021",
       points: [
         "Analyzed data on the engagement of the consumer base, 10,000, with different social media outlets (Youtube, Instagram) using Python.",
@@ -529,7 +529,7 @@ import {
         },
       ],
       image: astar,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/plainsalad/8-Puzzle-Solver-Using-A-Search",
     },    
     {
       name: "Grocery Queue Simulation",
