@@ -340,7 +340,7 @@ import {
     {
       name: "Generating Anime Face Images Using GANs",
       description:
-        "This project uses Generative Adversarial Networks (GANs) to generate realistic anime face images. The process involves training a generator and discriminator network, where the generator creates images and the discriminator evaluates their authenticity. The project focuses on data preprocessing, model training, and visualizing the generated images, showcasing the potential of GANs in creative fields like game development and art generation.",
+        "Used GANs to generate realistic anime face images. Focused on data preprocessing, model training, and visualizing the generated images, showcasing the potential of GANs in creative fields like game development and art generation.",
       tags: [
         {
           name: "GANs",
@@ -357,11 +357,11 @@ import {
       ],
       image: gananimefaces,
       source_code_link: "https://github.com/plainsalad/Anime-Face-Generator-Using-GANs",
-    },    
+    },
     {
       name: "Bayesian Linear Regression in Soccer Analytics",
       description:
-        "Utilized Bayesian linear regression models to analyze the relationship between dribbling and ball control skills of Argentinian soccer players based on FIFA statistics. By employing Normal, Student-T, and Outlier Classifier models, the project aims to understand the influence of outliers and model robustness in predictive analytics. This comprehensive analysis demonstrates the application of advanced statistical methods in sports analytics.",
+        "Used Bayesian linear regression models to analyze the relationship between dribbling and ball control skills of Argentinian soccer players based on FIFA statistics. The project aimed to understand the influence of outliers and model robustness in predictive analytics.",
       tags: [
         {
           name: "python",
@@ -382,7 +382,7 @@ import {
     {
       name: "Image Compression and Reconstruction Using PCA",
       description:
-        "This project involves the use of Principal Component Analysis (PCA) to compress and reconstruct images. By analyzing the images of a gymnasium in Buenos Aires (GEBA), the study explores the optimal number of components required to maintain image quality while reducing file size. The project includes 2D and 3D PCA transformations, reconstruction of images using varying components, and evaluation of the effectiveness of PCA in image compression.",
+        "Used Principal Component Analysis (PCA) to compress and reconstruct images. Analyzed images to explore the optimal number of components required to maintain image quality while reducing file size, including 2D and 3D PCA transformations.",
       tags: [
         {
           name: "pca",
@@ -399,7 +399,7 @@ import {
       ],
       image: pca,
       source_code_link: "https://github.com/plainsalad/Image-Compression-and-Reconstruction-Using-PCA",
-    }, 
+    },
     {
       name: "Face Recognizer",
       description:
@@ -424,7 +424,7 @@ import {
     {
       name: "Traffic Simulation for a Neighbourhood in Taipei",
       description:
-        "Developed an engaging ball game using Unity engine and C# programming, featuring multiple levels and local multiplayer options for an enhanced gaming experience.",
+        "Developed a traffic simulation model using Python to analyze and optimize traffic flow in a Taipei neighborhood. The project focused on modeling traffic patterns, simulating various scenarios, and analyzing the impact on traffic efficiency.",
       tags: [
         {
           name: "python",
@@ -445,7 +445,7 @@ import {
     {
       name: "File Organizer",
       description:
-        "This project is a desktop application for organizing files in a specified directory. Using a simple GUI, users can categorize files into folders based on their extensions. It supports the organization of images, videos, documents, audio files, and custom file types. The application is built with Python and Tkinter for the GUI, and it leverages the shutil library for file operations.",
+        "Developed a desktop application for organizing files in a specified directory. Users can categorize files into folders based on their extensions, supporting images, videos, documents, audio files, and custom file types. Built with Python and Tkinter.",
       tags: [
         {
           name: "python",
@@ -462,11 +462,11 @@ import {
       ],
       image: fileorganizerimage,
       source_code_link: "https://github.com/plainsalad/File-Organizer",
-    },    
+    },
     {
       name: "Grocery Queue Simulation",
       description:
-        "Developed a simulation of a grocery store queue system using Python, implementing object-oriented programming principles. The project aimed to analyze and optimize the number of cashiers needed for efficient customer service by modeling, simulating, and analyzing the queue system. Utilized libraries such as NumPy and Matplotlib for data handling and visualization.",
+        "Simulated a grocery store queue system using Python, implementing object-oriented programming principles. The project analyzed and optimized the number of cashiers needed for efficient service by modeling, simulating, and analyzing the queue system.",
       tags: [
         {
           name: "python",
@@ -487,7 +487,7 @@ import {
     {
       name: "Task Scheduler",
       description:
-        "Developed a task scheduler algorithm using Python to optimize the scheduling of daily tasks. The algorithm incorporates various scheduling strategies, including greedy algorithms and dynamic programming, to maximize task completion efficiency. The scheduler handles time constraints, dependencies, and multitasking capabilities to provide an optimal task execution order, enhancing productivity and time management.",
+        "Developed a task scheduler algorithm using Python to optimize daily tasks. Incorporated various scheduling strategies, including greedy algorithms and dynamic programming, to maximize task completion efficiency and enhance productivity.",
       tags: [
         {
           name: "python",
@@ -504,11 +504,11 @@ import {
       ],
       image: taskscheduler,
       source_code_link: "https://github.com/plainsalad/Task-Scheduler",
-    },  
+    },
     {
       name: "Kelp Population Estimation Using Bayesian Poisson Models",
       description:
-        "Analyzed and estimated the population of kelp plants in a coastal area using Bayesian Poisson models. The project handled kelp counts across a 100 grid of 20m x 20m squares and addressed missing data by fitting discrete count models to estimate kelp numbers in the missing cells. This study demonstrates the application of Bayesian analysis and Poisson models in ecological data imputation.",
+        "Estimated kelp plant populations in a coastal area using Bayesian Poisson models. Handled kelp counts across a grid and addressed missing data by fitting discrete count models to estimate kelp numbers in missing cells, demonstrating Bayesian analysis in ecological data.",
       tags: [
         {
           name: "bayesiananalysis",
@@ -568,6 +568,7 @@ import {
       image: blueballz,
       source_code_link: "https://github.com/plainsalad/Blue-Ballz",
     },
+    
     // {
     //   name: "Waste Removal Simulation",
     //   description:
