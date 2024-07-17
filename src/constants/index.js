@@ -32,13 +32,6 @@ import {
     r,
     sql,
     flask,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     spectralmania,
     blueballz,
     kanbanboard,
@@ -55,6 +48,8 @@ import {
     compensation,
     indiegame,
     pca,
+    gananimefaces,
+    fileorganizerimage,
     threejs,
     roots,
     vibemap,
@@ -343,6 +338,195 @@ import {
       source_code_link: "https://plainsalad.itch.io/spectral-mani-v-1",
     },
     {
+      name: "Generating Anime Face Images Using GANs",
+      description:
+        "This project uses Generative Adversarial Networks (GANs) to generate realistic anime face images. The process involves training a generator and discriminator network, where the generator creates images and the discriminator evaluates their authenticity. The project focuses on data preprocessing, model training, and visualizing the generated images, showcasing the potential of GANs in creative fields like game development and art generation.",
+      tags: [
+        {
+          name: "GANs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "deeplearning",
+          color: "green-text-gradient",
+        },
+        {
+          name: "imagegeneration",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: gananimefaces,
+      source_code_link: "https://github.com/plainsalad/Anime-Face-Generator-Using-GANs",
+    },    
+    {
+      name: "Bayesian Linear Regression in Soccer Analytics",
+      description:
+        "Utilized Bayesian linear regression models to analyze the relationship between dribbling and ball control skills of Argentinian soccer players based on FIFA statistics. By employing Normal, Student-T, and Outlier Classifier models, the project aims to understand the influence of outliers and model robustness in predictive analytics. This comprehensive analysis demonstrates the application of advanced statistical methods in sports analytics.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "bayesianstatistics",
+          color: "green-text-gradient",
+        },
+        {
+          name: "dataanalysis",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: lrsoccer,
+      source_code_link: "https://github.com/plainsalad/Bayesian-Linear-Regression-in-Soccer-Analytics",
+    },
+    {
+      name: "Image Compression and Reconstruction Using PCA",
+      description:
+        "This project involves the use of Principal Component Analysis (PCA) to compress and reconstruct images. By analyzing the images of a gymnasium in Buenos Aires (GEBA), the study explores the optimal number of components required to maintain image quality while reducing file size. The project includes 2D and 3D PCA transformations, reconstruction of images using varying components, and evaluation of the effectiveness of PCA in image compression.",
+      tags: [
+        {
+          name: "pca",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "imagecompression",
+          color: "green-text-gradient",
+        },
+        {
+          name: "datavisualization",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: pca,
+      source_code_link: "https://github.com/plainsalad/Image-Compression-and-Reconstruction-Using-PCA",
+    }, 
+    {
+      name: "Face Recognizer",
+      description:
+        "Developed a facial recognition system with OpenCV, achieving an 84.7% success rate in identifying individuals.",
+      tags: [
+        {
+          name: "opencv",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "machinelearning",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: facerecognizer,
+      source_code_link: "https://github.com/plainsalad/Facial-Recognizer",
+    },
+    {
+      name: "Traffic Simulation for a Neighbourhood in Taipei",
+      description:
+        "Developed an engaging ball game using Unity engine and C# programming, featuring multiple levels and local multiplayer options for an enhanced gaming experience.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "simulation",
+          color: "green-text-gradient",
+        },
+        {
+          name: "dataanalysis",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: trafficsim,
+      source_code_link: "https://github.com/plainsalad/Traffic-Simulation",
+    },
+    {
+      name: "File Organizer",
+      description:
+        "This project is a desktop application for organizing files in a specified directory. Using a simple GUI, users can categorize files into folders based on their extensions. It supports the organization of images, videos, documents, audio files, and custom file types. The application is built with Python and Tkinter for the GUI, and it leverages the shutil library for file operations.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tkinter",
+          color: "green-text-gradient",
+        },
+        {
+          name: "filemanagement",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: fileorganizerimage,
+      source_code_link: "https://github.com/plainsalad/File-Organizer",
+    },    
+    {
+      name: "Grocery Queue Simulation",
+      description:
+        "Developed a simulation of a grocery store queue system using Python, implementing object-oriented programming principles. The project aimed to analyze and optimize the number of cashiers needed for efficient customer service by modeling, simulating, and analyzing the queue system. Utilized libraries such as NumPy and Matplotlib for data handling and visualization.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "simulation",
+          color: "green-text-gradient",
+        },
+        {
+          name: "dataanalysis",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: queuesim,
+      source_code_link: "https://github.com/plainsalad/Grocery-Queue-Simulation",
+    },
+    {
+      name: "Task Scheduler",
+      description:
+        "Developed a task scheduler algorithm using Python to optimize the scheduling of daily tasks. The algorithm incorporates various scheduling strategies, including greedy algorithms and dynamic programming, to maximize task completion efficiency. The scheduler handles time constraints, dependencies, and multitasking capabilities to provide an optimal task execution order, enhancing productivity and time management.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "algorithms",
+          color: "green-text-gradient",
+        },
+        {
+          name: "optimization",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: taskscheduler,
+      source_code_link: "https://github.com/plainsalad/Task-Scheduler",
+    },  
+    {
+      name: "Kelp Population Estimation Using Bayesian Poisson Models",
+      description:
+        "Analyzed and estimated the population of kelp plants in a coastal area using Bayesian Poisson models. The project handled kelp counts across a 100 grid of 20m x 20m squares and addressed missing data by fitting discrete count models to estimate kelp numbers in the missing cells. This study demonstrates the application of Bayesian analysis and Poisson models in ecological data imputation.",
+      tags: [
+        {
+          name: "bayesiananalysis",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "poissonmodel",
+          color: "green-text-gradient",
+        },
+        {
+          name: "dataimputation",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: kelppop,
+      source_code_link: "https://github.com/plainsalad/Kelp-Population-Estimation-Using-Bayesian-Poisson-Models",
+    },
+    {
       name: "Kanban Board",
       description:
         "Developed a Kanban Board application using Flask for routing and HTML/CSS for structure, streamlining project management and task organization for users.",
@@ -384,174 +568,48 @@ import {
       image: blueballz,
       source_code_link: "https://github.com/plainsalad/Blue-Ballz",
     },
-    {
-      name: "Face Recognizer",
-      description:
-        "Developed a facial recognition system with OpenCV, achieving an 84.7% success rate in identifying individuals.",
-      tags: [
-        {
-          name: "opencv",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "python",
-          color: "green-text-gradient",
-        },
-        {
-          name: "machinelearning",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: facerecognizer,
-      source_code_link: "https://github.com/plainsalad/Facial-Recognizer",
-    },
-    {
-      name: "Traffic Simulation for a Neighbourhood in Taipei",
-      description:
-        "Developed an engaging ball game using Unity engine and C# programming, featuring multiple levels and local multiplayer options for an enhanced gaming experience.",
-      tags: [
-        {
-          name: "unity",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "c#",
-          color: "green-text-gradient",
-        },
-        {
-          name: "gamedevelopment",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: trafficsim,
-      source_code_link: "https://github.com/plainsalad/Traffic-Simulation",
-    },
-    {
-      name: "Waste Removal Simulation",
-      description:
-        "Developed an engaging ball game using Unity engine and C# programming, featuring multiple levels and local multiplayer options for an enhanced gaming experience.",
-      tags: [
-        {
-          name: "unity",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "c#",
-          color: "green-text-gradient",
-        },
-        {
-          name: "gamedevelopment",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: wasteremovalsim,
-      source_code_link: "https://github.com/plainsalad/Waste-Removal-Simulation",
-    },
-    {
-      name: "Task Scheduler",
-      description:
-        "Developed a task scheduler algorithm using Python to optimize the scheduling of daily tasks. The algorithm incorporates various scheduling strategies, including greedy algorithms and dynamic programming, to maximize task completion efficiency. The scheduler handles time constraints, dependencies, and multitasking capabilities to provide an optimal task execution order, enhancing productivity and time management.",
-      tags: [
-        {
-          name: "python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "algorithms",
-          color: "green-text-gradient",
-        },
-        {
-          name: "optimization",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: taskscheduler,
-      source_code_link: "https://github.com/plainsalad/Task-Scheduler",
-    },
-    {
-      name: "Bayesian Linear Regression in Soccer Analytics",
-      description:
-        "Utilized Bayesian linear regression models to analyze the relationship between dribbling and ball control skills of Argentinian soccer players based on FIFA statistics. By employing Normal, Student-T, and Outlier Classifier models, the project aims to understand the influence of outliers and model robustness in predictive analytics. This comprehensive analysis demonstrates the application of advanced statistical methods in sports analytics.",
-      tags: [
-        {
-          name: "python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "bayesianstatistics",
-          color: "green-text-gradient",
-        },
-        {
-          name: "dataanalysis",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: lrsoccer,
-      source_code_link: "https://github.com/plainsalad/Bayesian-Linear-Regression-in-Soccer-Analytics",
-    },
-    {
-      name: "Kelp Population Estimation Using Bayesian Poisson Models",
-      description:
-        "Analyzed and estimated the population of kelp plants in a coastal area using Bayesian Poisson models. The project involved handling a dataset with kelp counts across a 100 grid of 20m x 20m squares, addressing missing data by fitting discrete count models to estimate the number of kelp in the missing cells. This study demonstrates the application of Bayesian analysis and Poisson models in ecological data imputation.",
-      tags: [
-        {
-          name: "bayesiananalysis",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "poissonmodel",
-          color: "green-text-gradient",
-        },
-        {
-          name: "dataimputation",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: kelppop,
-      source_code_link: "https://github.com/plainsalad/Kelp-Population-Estimation-Using-Bayesian-Poisson-Models",
-    },
-    {
-      name: "8-Puzzle Solver Using A* Search",
-      description:
-        "Developed an 8-puzzle solver using the A* search algorithm. The project implements the PuzzleNode class to represent puzzle states and uses heuristic functions such as misplaced tiles and Manhattan distance to guide the search. The solver efficiently finds the optimal solution by exploring the puzzle's state space, leveraging memoization for improved performance.",
-      tags: [
-        {
-          name: "a*search",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "heuristicalgorithms",
-          color: "green-text-gradient",
-        },
-        {
-          name: "python",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: astar,
-      source_code_link: "https://github.com/plainsalad/8-Puzzle-Solver-Using-A-Search",
-    },    
-    {
-      name: "Grocery Queue Simulation",
-      description:
-        "Developed a simulation of a grocery store queue system using Python, implementing object-oriented programming principles. The project aimed to analyze and optimize the number of cashiers needed for efficient customer service by modeling, simulating, and analyzing the queue system. Utilized libraries such as NumPy and Matplotlib for data handling and visualization.",
-      tags: [
-        {
-          name: "python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "simulation",
-          color: "green-text-gradient",
-        },
-        {
-          name: "dataanalysis",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: queuesim,
-      source_code_link: "https://github.com/plainsalad/Grocery-Queue-Simulation",
-    },
+    // {
+    //   name: "Waste Removal Simulation",
+    //   description:
+    //     "Developed an engaging ball game using Unity engine and C# programming, featuring multiple levels and local multiplayer options for an enhanced gaming experience.",
+    //   tags: [
+    //     {
+    //       name: "python",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "simulation",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "dataanalysis",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: wasteremovalsim,
+    //   source_code_link: "https://github.com/plainsalad/Waste-Removal-Simulation",
+    // }, 
+    // {
+    //   name: "8-Puzzle Solver Using A* Search",
+    //   description:
+    //     "Developed an 8-puzzle solver using the A* search algorithm. The project implements the PuzzleNode class to represent puzzle states and uses heuristic functions such as misplaced tiles and Manhattan distance to guide the search. The solver efficiently finds the optimal solution by exploring the puzzle's state space, leveraging memoization for improved performance.",
+    //   tags: [
+    //     {
+    //       name: "a*search",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "heuristicalgorithms",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "python",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: astar,
+    //   source_code_link: "https://github.com/plainsalad/8-Puzzle-Solver-Using-A-Search",
+    // },   
     // {
     //   name: "Addressing Market Failure in the US Health Insurance Industry",
     //   description:
@@ -635,28 +693,7 @@ import {
     //   ],
     //   image: indiegame,
     //   source_code_link: "https://github.com/",
-    // },
-    {
-      name: "Image Compression and Reconstruction Using PCA",
-      description:
-        "This project involves the use of Principal Component Analysis (PCA) to compress and reconstruct images. By analyzing the images of a gymnasium in Buenos Aires (GEBA), the study explores the optimal number of components required to maintain image quality while reducing file size. The project includes 2D and 3D PCA transformations, reconstruction of images using varying components, and evaluation of the effectiveness of PCA in image compression.",
-      tags: [
-        {
-          name: "pca",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "imagecompression",
-          color: "green-text-gradient",
-        },
-        {
-          name: "datavisualization",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: pca,
-      source_code_link: "https://github.com/plainsalad/Image-Compression-and-Reconstruction-Using-PCA",
-    },    
+    // }, 
   ];
   
   export { services, technologies, experiences, testimonials, projects };

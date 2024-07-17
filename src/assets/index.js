@@ -38,19 +38,11 @@ import sklearn from "./tech/sklearn.png";
 import sql from "./tech/sql.png";
 import htmlcss from "./tech/htmlcss.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import roots from "./company/roots.png";
 import vibemap from "./company/vibemap.png";
 import krafton from "./company/krafton.png";
 import lavner from "./company/lavner.png";
 import minerva from "./company/minerva.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 import spectralmania from "./works/spectralmania.webp";
 import blueballz from "./works/blueballz.webp";
@@ -68,6 +60,8 @@ import aibubble from "./works/aibubble.webp";
 import compensation from "./works/compensation.webp";
 import indiegame from "./works/indiegame.webp";
 import pca from "./works/pca.webp";
+import gananimefaces from "./works/gananimefaces.webp";
+import fileorganizerimage from "./works/fileorganizerimage.webp";
 
 export {
   logo2,
@@ -108,18 +102,11 @@ export {
   r,
   sklearn,
   sql,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   roots,
   vibemap,
   krafton,
   lavner,
   minerva,
-  carrent,
-  jobit,
-  tripguide,
   spectralmania,
   blueballz,
   kanbanboard,
@@ -136,4 +123,6 @@ export {
   compensation,
   indiegame,
   pca,
+  gananimefaces,
+  fileorganizerimage,
 };
