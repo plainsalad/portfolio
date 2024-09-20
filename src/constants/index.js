@@ -547,27 +547,27 @@ import {
       image: kanbanboard,
       source_code_link: "https://github.com/plainsalad/Kanban-Board",
     },
-    {
-      name: "Blue Ballz",
-      description:
-        "Developed an engaging ball game using Unity engine and C# programming, featuring multiple levels and local multiplayer options for an enhanced gaming experience.",
-      tags: [
-        {
-          name: "unity",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "c#",
-          color: "green-text-gradient",
-        },
-        {
-          name: "gamedevelopment",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: blueballz,
-      source_code_link: "https://github.com/plainsalad/Blue-Ballz",
-    },
+    // {
+    //   name: "Blue Ballz",
+    //   description:
+    //     "Developed an engaging ball game using Unity engine and C# programming, featuring multiple levels and local multiplayer options for an enhanced gaming experience.",
+    //   tags: [
+    //     {
+    //       name: "unity",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "c#",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "gamedevelopment",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: blueballz,
+    //   source_code_link: "https://github.com/plainsalad/Blue-Ballz",
+    // },
     
     // {
     //   name: "Waste Removal Simulation",
