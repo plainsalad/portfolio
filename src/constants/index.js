@@ -547,70 +547,70 @@ import {
       image: kanbanboard,
       source_code_link: "https://github.com/plainsalad/Kanban-Board",
     },
-    // {
-    //   name: "Blue Ballz",
-    //   description:
-    //     "Developed an engaging ball game using Unity engine and C# programming, featuring multiple levels and local multiplayer options for an enhanced gaming experience.",
-    //   tags: [
-    //     {
-    //       name: "unity",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "c#",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "gamedevelopment",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: blueballz,
-    //   source_code_link: "https://github.com/plainsalad/Blue-Ballz",
-    // },
+    {
+      name: "Blue Ballz",
+      description:
+        "Developed an engaging ball game using Unity engine and C# programming, featuring multiple levels and local multiplayer options for an enhanced gaming experience.",
+      tags: [
+        {
+          name: "unity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "c#",
+          color: "green-text-gradient",
+        },
+        {
+          name: "gamedevelopment",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: blueballz,
+      source_code_link: "https://github.com/plainsalad/Blue-Ballz",
+    },
     
-    // {
-    //   name: "Waste Removal Simulation",
-    //   description:
-    //     "Developed an engaging ball game using Unity engine and C# programming, featuring multiple levels and local multiplayer options for an enhanced gaming experience.",
-    //   tags: [
-    //     {
-    //       name: "python",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "simulation",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "dataanalysis",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: wasteremovalsim,
-    //   source_code_link: "https://github.com/plainsalad/Waste-Removal-Simulation",
-    // }, 
-    // {
-    //   name: "8-Puzzle Solver Using A* Search",
-    //   description:
-    //     "Developed an 8-puzzle solver using the A* search algorithm. The project implements the PuzzleNode class to represent puzzle states and uses heuristic functions such as misplaced tiles and Manhattan distance to guide the search. The solver efficiently finds the optimal solution by exploring the puzzle's state space, leveraging memoization for improved performance.",
-    //   tags: [
-    //     {
-    //       name: "a*search",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "heuristicalgorithms",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "python",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: astar,
-    //   source_code_link: "https://github.com/plainsalad/8-Puzzle-Solver-Using-A-Search",
-    // },   
+    {
+      name: "Waste Removal Simulation",
+      description:
+        "Developed an engaging ball game using Unity engine and C# programming, featuring multiple levels and local multiplayer options for an enhanced gaming experience.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "simulation",
+          color: "green-text-gradient",
+        },
+        {
+          name: "dataanalysis",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: wasteremovalsim,
+      source_code_link: "https://github.com/plainsalad/Waste-Removal-Simulation",
+    }, 
+    {
+      name: "8-Puzzle Solver Using A* Search",
+      description:
+        "Developed an 8-puzzle solver using the A* search algorithm. The project implements the PuzzleNode class to represent puzzle states and uses heuristic functions such as misplaced tiles and Manhattan distance to guide the search. The solver efficiently finds the optimal solution by exploring the puzzle's state space, leveraging memoization for improved performance.",
+      tags: [
+        {
+          name: "a*search",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "heuristicalgorithms",
+          color: "green-text-gradient",
+        },
+        {
+          name: "python",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: astar,
+      source_code_link: "https://github.com/plainsalad/8-Puzzle-Solver-Using-A-Search",
+    },   
     // {
     //   name: "Addressing Market Failure in the US Health Insurance Industry",
     //   description:
