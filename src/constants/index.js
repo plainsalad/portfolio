@@ -1,3 +1,4 @@
+// import { color } from "framer-motion";
 import {
     mobile,
     backend,
@@ -39,6 +40,7 @@ import {
     wasteremovalsim,
     trafficsim,
     taskscheduler,
+    eeggnn,
     lrsoccer,
     kelppop,
     astar,
@@ -56,6 +58,7 @@ import {
     krafton,
     lavner,
     minerva,
+    maths,
   } from "../assets";
   
   export const navLinks = [
@@ -286,36 +289,47 @@ import {
         "Proactively suggested strategic improvements to course content and structure to professors based on student feedback and academic performance analysis.",
       ],
     },
-  ];
-  
-  const testimonials = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      title: "Math Instructor",
+      comapny_name: "Mathnasium",
+      icon: maths,
+      iconBg: "#E6DEDD",
+      date: "Jan 2025 - Present",
+      points: [
+        "Delivered personalized math instruction to students in grades 2–12, covering topics from arithmetic to Algebra II.",
+        "Adapted lesson plans to match students’ skill levels, fostering both confidence and academic improvement.",
+        "Monitored student progress using Mathnasium's curriculum tools and provided regular feedback to parents and center leadership, contributing to an average improvement of 20–30% in student assessment scores over a 3-month period.",
+        "Created a positive and engaging learning environment that encouraged participation and mathematical thinking.",
+      ],
     },
   ];
   
   const projects = [
+    {
+      name: "Epileptic Seizure Prediction Using Graph Neural Networks",
+      description: 
+        "An ongoing research project exploring machine learning approaches for eypileptic seizure prediction. The work focuses on analyzing EEG data with graph-based neural networks and normalization techniques (e.g., min-max scaling) to distinguish between interictal and preictal brain states. The project aims to advance early-warning systems that can provide timely alerts for patients.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "graphneuralnetworks",
+          color: "green-text-gradient",
+        },
+        {
+          name: "deeplearning",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "EEG",
+          color: "orange-text-gradient"
+        },
+      ],
+      image: eeggnn,
+      source_code_link: "https://github.com/plainsalad/epilepsy-prediction"
+    },
     {
       name: "Spectral Mania",
       description:
@@ -697,4 +711,4 @@ import {
     // }, 
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

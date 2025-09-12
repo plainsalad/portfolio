@@ -43,6 +43,7 @@ import vibemap from "./company/vibemap.png";
 import krafton from "./company/krafton.png";
 import lavner from "./company/lavner.png";
 import minerva from "./company/minerva.png";
+import maths from "./company/maths.png";
 
 import spectralmania from "./works/spectralmania.webp";
 import blueballz from "./works/blueballz.webp";
@@ -51,6 +52,7 @@ import facerecognizer from "./works/facerecognizer.webp";
 import wasteremovalsim from "./works/wasteremovalsim.webp";
 import trafficsim from "./works/trafficsim.webp";
 import taskscheduler from "./works/taskscheduler.webp";
+import eeggnn from "./works/eeggnn.png";
 import lrsoccer from "./works/lrsoccer.webp";
 import kelppop from "./works/kelppop.webp";
 import astar from "./works/astar.webp";
@@ -107,6 +109,7 @@ export {
   krafton,
   lavner,
   minerva,
+  maths,
   spectralmania,
   blueballz,
   kanbanboard,
@@ -114,6 +117,7 @@ export {
   wasteremovalsim,
   trafficsim,
   taskscheduler,
+  eeggnn,
   lrsoccer,
   kelppop,
   astar,

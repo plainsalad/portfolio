@@ -6,10 +6,16 @@ import { textVariant, fadeIn } from "../utils/motion";
 import { Tilt } from 'react-tilt';
 import { github } from "../assets";
 
+import { SectionWrapper } from '../hoc';
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.15, 0.6)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true }}
+    >
       <Tilt
         options={{
           max: 45,
@@ -56,15 +62,14 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
   )
 }
 
-const Works = () => {
-  const [visibleProjects, setVisibleProjects] = useState(6); // Initial number of projects to display
+const Work = () => {
+  const [visibleProjects, setVisibleProjects] = useState(6);
   const loadMoreRef = useRef(null);
 
   const handleObserver = (entries) => {
     const target = entries[0];
-    console.log("Observer triggered: ", target.isIntersecting); // Debug line
     if (target.isIntersecting) {
-      setVisibleProjects((prev) => prev + 6); // Load more projects when the target is in view
+      setVisibleProjects((prev) => prev + 6);
     }
   };
 
@@ -78,7 +83,6 @@ const Works = () => {
       observer.observe(loadMoreRef.current);
     }
 
-    // Clean up observer on unmount
     return () => {
       if (loadMoreRef.current) {
         observer.unobserve(loadMoreRef.current);
@@ -88,11 +92,21 @@ const Works = () => {
 
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My work</p>
-        <h2 className={styles.sectionHeadText}>Projects.</h2>
-      </motion.div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Animated heading */}
+        <motion.div
+          variants={textVariant()}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true }}
+          className="text-left"
+        >
+          <p className={styles.sectionSubText}>My work</p>
+          <h2 className={styles.sectionHeadText}>Projects.</h2>
+        </motion.div>
+      </div>
 
+      {/* Animated project cards */}
       <div className="mt-20 flex flex-wrap gap-7 justify-center">
         {projects.slice(0, visibleProjects).map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
@@ -105,4 +119,4 @@ const Works = () => {
   );
 };
 
-export default Works;
+export default SectionWrapper(Work, "work");
